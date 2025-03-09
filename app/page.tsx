@@ -1,4 +1,5 @@
 import Image from "next/image";
+import List from "./components/List";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         width={300}
         height={400}
       />
+      <List />
     </main>
   );
 }
